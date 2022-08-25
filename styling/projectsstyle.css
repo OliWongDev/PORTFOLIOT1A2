@@ -56,6 +56,7 @@ a {
     text-align: center;
     margin-right: 50%;
     font-size: 5em;
+    font-style: italic;
 }
 
 .projects {
@@ -63,6 +64,10 @@ a {
     margin: 5vw;
     justify-content: space-between;
     position: relative;
+}
+
+.projects h3 {
+    text-decoration: underline;
 }
 
 #project-1 {
@@ -154,4 +159,94 @@ p {
     justify-content: center;
     font-size: 1.5rem;
     margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .header-nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: solid black 1vh;
+    }
+
+    #logo {
+        margin-right: 0;
+    }
+
+    #projects-title {
+        margin: 1em 0 1em 0;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+        gap: 4em;
+        font-size: 2em;
+    }
+
+    #twitter-id {
+        width: 48vw;
+        height: 60vh;
+    }
+
+    #computers-id {
+        
+        width: 48vw;
+        height: 60vh;
+    }
+
+    #afl-id {
+    
+        width: 48vw;
+        height: 60vh;
+    
+    }
+
+    .social-links a {
+        margin: 0.75em;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 728px) {
+    .header-nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: solid black 1vh;
+    }
+
+    #logo {
+        margin-right: 0;
+    }
+
+    #projects-title {
+        margin: 1em 0 1em 0;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+        gap: 4em;
+        font-size: 2em;
+    }
+
+    #twitter-id {
+        width: 48vw;
+        height: 60vh;
+    }
+
+    #computers-id {
+        
+        width: 48vw;
+        height: 60vh;
+    }
+
+    #afl-id {
+    
+        width: 48vw;
+        height: 60vh;
+    
+    }
+
+    .social-links a {
+        margin: 0.75em;
+    }
 }
