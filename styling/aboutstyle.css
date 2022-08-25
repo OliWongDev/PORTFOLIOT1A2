@@ -187,6 +187,10 @@ a {
         align-items: center;
     }
     
+    #demo-monstera {
+        width: 60vw;
+    }
+
     .about3 {
         flex-direction: column;
         margin: 0;
