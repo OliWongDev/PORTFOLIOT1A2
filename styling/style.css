@@ -126,12 +126,12 @@ a {
         align-items: center;
     }
 
-    .main {
-        gap: 2rem;
-    }
-
     #logo {
         margin-right: 0;
+    }
+
+    .main {
+        gap: 2rem;
     }
 
     #titles {
