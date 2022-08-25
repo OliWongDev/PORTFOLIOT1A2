@@ -12,41 +12,43 @@
 
 .header-nav {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 1.25rem 1.25rem;
-    
-}
-
-.logocircle {
-    height: 5em;
-    width: 5em;
-}
-
-.justify-left {
-    margin-right: auto;
-}
-
-.nav ul {
-    display: flex;
-    justify-content: space-around;
-    padding: 0.5em;
-    gap: 3rem;
+    padding: 1.5rem 1.5rem;
     list-style: none;
+    gap: 3rem;
 }
 
-#navbar li {
-    font-size: 2rem;
+.header-nav li {
+    font-size: 2.5rem;
     display: flex;
-    background: var(--logo-bg-color);
     text-align: center;
+    align-items: center;
 }
 
+#logo {
+    margin-right: auto;
+    border: solid black 5px;
+    border-radius: 15%;
+    padding: 0.5em;
+    font: black;
+    font-weight: 700;
+    background: var(--logo-bg-color);
+}
 
+#logo a {
+    background: var(--logo-bg-color);
+}
+
+li a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+li a:hover {
+    color: rgb(4, 161, 4);
+}
 
 a {
     text-decoration: none;
-    font: black;
 }
 
 .home-content {
