@@ -53,16 +53,17 @@ a {
 }
 
 #blog-title {
-        text-align: center;
-        margin-right: 50%;
-        font-size: 5em;
+    text-align: center;
+    margin-right: 50%;
+    font-size: 5em;
+    font-style: italic;
     }
 
 .blog-posts  {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 0 25vw 0 25vw;
+    padding: 0 10vw 0 10vw;
 }
 
 .entry {
@@ -73,8 +74,8 @@ a {
 
 .entry img {
     border-radius: 15%;
-    height: 400px;
-    width: 300px;
+    height: 40vh;
+    width: 30vw;
     aspect-ratio: 4/3;
 }
 
@@ -99,7 +100,7 @@ a {
 .author-article a {
     background:#000000ad;
     color: #088d13;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .author-article a:hover {
@@ -113,7 +114,7 @@ a {
 }
 
 #empty-entry {
-    width: 300px;
+    width: 300vw;
     height: 0;
     border: none;
 }
@@ -143,3 +144,88 @@ a {
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
+
+@media only screen and (max-width: 480px) {
+    .header-nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        margin-right: 0;
+    }
+    
+    #blog-title {
+        margin: 1em 0 1em 0;
+    }
+
+    .entry {
+        margin: 4vh 4vw;
+    }
+
+    .entry img {
+        height: 80vh;
+        width: 60vw;
+    }
+
+    .social-links a {
+        margin: 0.75em;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px)  {
+    .header-nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        margin-right: 0;
+    }
+
+    #blog-title {
+        margin: 1em 0 1em 0;
+    }
+
+    .entry img {
+        height: 80vh;
+        width: 60vw;
+    }
+    .social-links a {
+        margin: 0.75em;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .header-nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        margin-right: 0;
+    }
+
+    #blog-title {
+        margin: 1em 0 1em 0;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .entry img {
+        height: 80vh;
+        width: 36vw;
+    }
+    .social-links a {
+        margin: 0.75em;
+    }
+
+    .author-article a {
+        font-size: 1.5em;
+    }
+}
+
