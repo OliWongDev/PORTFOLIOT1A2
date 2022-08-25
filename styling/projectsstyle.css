@@ -146,6 +146,7 @@ p {
     border: solid .25em var(--main-bg-color);
     border-radius: 50%;
 }
+
 #copyright {
     display: flex;
     justify-content: center;
