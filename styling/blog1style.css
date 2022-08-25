@@ -52,15 +52,18 @@ a {
     text-decoration: none;
 }
 
-h1 {
+#blog1-title {
     text-align: center;
     text-decoration: underline;
     font-style: italic;
+    font-size: 5em;
+    padding: 0.25em;
 }
 
 h3 {
     text-align: center;
     margin-top: 1em;
+    font-size: 2em;
 }
 
 h4 {
@@ -74,12 +77,14 @@ h4 {
     margin: 2em;
     font-style: italic;
     font-size: 150%;
+    font-weight: 700;
+    gap: 1em;
 }
 
 .portrait {
     display: flex;
-    width: 35vw;
-    height: 55vh;
+    width: 50vw;
+    height: 60vh;
     aspect-ratio: 4/3;
     border-radius: 15%;
 }
@@ -90,6 +95,7 @@ p {
     margin: 2vw 10vh;
     align-items: center;
     font-size: 150%;
+    padding: 1em;
 }
 
 .landscape-container {
@@ -100,11 +106,13 @@ p {
     margin: 2em;
     font-style: italic;
     font-size: 150%;
+    font-weight: 700;
+    gap: 1em;
 }
 
 .landscape {
     display: flex;
-    width: 50vw;
+    width: 60vw;
     height: 70vh;
     aspect-ratio: 4/3;
     border-radius: 15%;
@@ -135,4 +143,95 @@ p {
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
+
+@media only screen and (max-width: 480px) {
+    .header-nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: solid black 1vh;
+    }
+
+    #logo {
+        margin-right: 0;
+    }
+
+    #blog1-title {
+        margin: 1em 0 1em 0;
+        font-size: 3em;
+        padding: 0.5em;
+    }
+
+    .portrait {
+        width: 70vw;
+        height: 75vh;
+    }
+
+    .image-flex-container {
+        gap: 0.5em;
+        font-weight: 700;
+    }
+
+    p {
+        justify-content: center;
+    }
+
+    .landscape {
+        width: 80vw;
+        height: 75vh;
+    }
+
+    .landscape-container {
+        gap: 0.5em;
+        font-weight: 700;
+    }
+
+    .social-links a {
+        margin: 0.75em;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .header-nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: solid black 1vh;
+        }
+    
+    #logo {
+            margin-right: 0;
+        }
+        
+    #blog1-title {
+            margin: 1em 0 1em 0;
+            font-size: 3em;
+            padding: 0.5em;
+        }
+    
+    .portrait {
+        width: 80vw;
+        height: 75vh;
+        }
+    .image-flex-container {
+        gap: 0.5em;
+        }
+    p   {
+        justify-content: center;
+        }
+    
+    .landscape {
+            width: 80vw;
+            height: 75vh;
+        }
+    
+    .landscape-container {
+            gap: 0.5em;
+            font-weight: 700;
+        }
+    
+    .social-links a {
+            margin: 0.75em;
+        }
+    }
 
