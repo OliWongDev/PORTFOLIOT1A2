@@ -53,12 +53,10 @@ a {
 }
 
 #blog-title {
-    display: flex;
-    margin: 4rem;
-    justify-content: flex-start;
-    font-size: 3em;
-    font-style: italic;
-}
+        text-align: center;
+        margin-right: 50%;
+        font-size: 5em;
+    }
 
 .blog-posts  {
     display: flex;
