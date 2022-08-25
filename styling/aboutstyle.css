@@ -52,17 +52,15 @@ a {
 }
 
 #about-title {
-    display: flex;
-    margin: 4rem;
-    justify-content: flex-start;
-    font-size: 3em;
-    font-style: italic;
+    text-align: center;
+    margin-right: 50%;
+    font-size: 5em;
 }
 
 .about-content {
     display: flex;
     flex-direction: column;
-    margin: 3em;
+    margin: 1em 3em 3em 3em;
     justify-content: space-between;
 }
 
