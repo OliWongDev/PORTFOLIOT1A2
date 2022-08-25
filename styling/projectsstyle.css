@@ -1,0 +1,153 @@
+:root {
+    --main-bg-color: #e9fb7d;
+    --logo-bg-color: #7b9e89;
+    --link-hover-color: #fa7b04;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-bg-color);
+}
+
+.header-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.25rem 1.25rem;
+    
+}
+
+.logocircle {
+    height: 5em;
+    width: 5em;
+}
+
+.justify-left {
+    margin-right: auto;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em;
+    gap: 3rem;
+    list-style: none;
+}
+
+#navbar li {
+    font-size: 2rem;
+    display: flex;
+    background: var(--logo-bg-color);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font: black;
+}
+
+#projects-title {
+display: flex;
+margin: 4rem;
+justify-content: flex-start;
+font-size: 3em;
+font-style: italic;
+}
+
+.projects {
+    display: flex;
+    margin: 5vw;
+    justify-content: space-between;
+    position: relative;
+}
+
+#project-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+
+#twitter-id {
+    display: flex;
+    width: 25vw;
+    height: 50vh;
+    aspect-ratio: 4/3;
+    border: solid black 0.25em;
+    border-radius: 15%;
+}
+
+#project-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+
+#computers-id {
+    display: flex;
+    width: 25vw;
+    height: 50vh;
+    aspect-ratio: 4/3;
+    border: solid black 0.25em;
+    border-radius: 15%;
+}
+
+#project-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+
+#afl-id {
+    display: flex;
+    width: 25vw;
+    height: 50vh;
+    aspect-ratio: 4/3;
+    border: solid black 0.25em;
+    border-radius: 15%;
+}
+
+svg {
+    fill: orange;
+    border: solid 0.1em var(--logo-bg-color);
+    border-radius: 50%;
+    height: 4em;
+    width: 4em;
+}
+
+.projects svg:hover {
+    border: solid 0.5em var(--logo-bg-color);
+}
+
+p {
+    padding: 2vh 2.5vw;
+    font-style: italic;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5em;
+}
+
+.social-links a {
+    display: flex;
+    height: 5em;
+    width: 5em;
+    margin: 2em;
+}
+
+.social-links a:hover {
+    border: solid .25em var(--main-bg-color);
+    border-radius: 50%;
+}
+#copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
