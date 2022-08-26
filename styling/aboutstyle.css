@@ -22,12 +22,12 @@
     display: flex;
     text-align: center;
     align-items: center;
-    font-family: 'Roboto Mono', monospace, sans;
+    font-family: 'Roboto Mono', monospace, sans-serif;
 }
 
 #logo {
     margin-right: auto;
-    border: solid black 5px;
+    border: solid black 3px;
     border-radius: 15%;
     padding: 0.5em;
     font: black;
@@ -217,7 +217,7 @@ h1 span {
     }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 1000px)  {
+@media only screen and (min-width: 481px) and (max-width: 768px)  {
     .header-nav {
         flex-wrap: wrap;
         flex-direction: column;
@@ -246,6 +246,7 @@ h1 span {
         text-align: left;
         justify-content: center;
         align-items: center;
+        font-size: 1.5em;
     }
 
     .about2 {
@@ -255,6 +256,7 @@ h1 span {
         text-align: left;
         justify-content: center;
         align-items: center;
+        font-size: 1.5em;
     }
     
     .about3 {
@@ -264,6 +266,7 @@ h1 span {
         text-align: left;
         justify-content: center;
         align-items: center;
+        font-size: 1.5em;
     }
 
     .social-links a {

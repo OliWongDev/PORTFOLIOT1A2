@@ -23,16 +23,18 @@
     display: flex;
     text-align: center;
     align-items: center;
+    font-family: 'Roboto Mono', monospace, sans-serif;
 }
 
 #logo {
     margin-right: auto;
-    border: solid black 5px;
+    border: solid black 3px;
     border-radius: 15%;
     padding: 0.5em;
     font: black;
     font-weight: 700;
     background: var(--logo-bg-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #logo a {
@@ -57,6 +59,14 @@ a {
     margin-right: 50%;
     font-size: 5em;
     font-style: italic;
+    font-family:'Roboto Mono', monospace, sans-serif;
+    letter-spacing: 0.1em;
+    }
+
+#blog-title span {
+    
+        animation: dot-loading 1s infinite;
+        overflow: hidden;
     }
 
 .blog-posts  {
@@ -210,23 +220,21 @@ a {
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .header-nav {
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        border-bottom: solid black 1vh;
-    }
-
-    #logo {
-        margin-right: 0;
-    }
-
+ 
     .author-article a {
         font-size: 1.5rem;
     }
     #blog-title {
         margin: 1em 0 1em 0;
     }
+}
+@keyframes dot-loading {
+    from {
+        color:black;
+    }
+    to {
+        color:#e9fb7d;
+  }
 }
 
 

@@ -22,7 +22,7 @@
     display: flex;
     text-align: center;
     align-items: center;
-    font-family: 'Roboto Mono', monospace, sans;
+    font-family: 'Roboto Mono', monospace, sans-serif;
 }
 
 #logo {

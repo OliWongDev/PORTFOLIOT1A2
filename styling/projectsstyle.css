@@ -23,16 +23,19 @@
     display: flex;
     text-align: center;
     align-items: center;
+    font-family: 'Roboto Mono', monospace, sans-serif;
 }
 
 #logo {
     margin-right: auto;
-    border: solid black 5px;
+    border: solid black 3px;
     border-radius: 15%;
     padding: 0.5em;
     font: black;
     font-weight: 700;
     background: var(--logo-bg-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 #logo a {
@@ -57,6 +60,13 @@ a {
     margin-right: 50%;
     font-size: 5em;
     font-style: italic;
+    font-family: 'Roboto Mono', monospace, sans;
+    letter-spacing: 0.1em;
+}
+
+#projects-title span {
+    animation: dot-loading 1s infinite;
+    overflow: hidden;
 }
 
 .projects {
@@ -68,6 +78,7 @@ a {
 
 .projects h3 {
     text-decoration: underline;
+    font-family: 'Roboto Mono', monospace, sans;
 }
 
 #project-1 {
@@ -133,6 +144,7 @@ svg {
 p {
     padding: 2vh 2.5vw;
     font-style: italic;
+    font-family: 'Roboto Mono', monospace, sans;
 }
 
 .social-links {
@@ -175,12 +187,14 @@ p {
 
     #projects-title {
         margin: 1em 0 1em 0;
+        font-size: 3em;
     }
 
     .projects {
         flex-wrap: wrap;
         gap: 4em;
         font-size: 2em;
+        text-align: center;
     }
 
     #twitter-id {
@@ -199,6 +213,10 @@ p {
         width: 48vw;
         height: 60vh;
     
+    }
+
+    p {
+        font-size: 0.5em;
     }
 
     .social-links a {
@@ -220,6 +238,7 @@ p {
 
     #projects-title {
         margin: 1em 0 1em 0;
+        font-size: 4em;
     }
 
     .projects {
@@ -246,7 +265,20 @@ p {
     
     }
 
+    p {
+        font-size: 0.75em;
+    }
+
     .social-links a {
         margin: 0.75em;
     }
+}
+
+@keyframes dot-loading {
+    from {
+        color:black;
+    }
+    to {
+        color:#e9fb7d;
+  }
 }
