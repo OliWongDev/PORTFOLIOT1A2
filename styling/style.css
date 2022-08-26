@@ -22,16 +22,18 @@
     display: flex;
     text-align: center;
     align-items: center;
+    font-family: 'Roboto Mono', monospace, sans;
 }
 
 #logo {
     margin-right: auto;
-    border: solid black 5px;
+    border: solid black 3px;
     border-radius: 15%;
     padding: 0.5em;
     font: black;
     font-weight: 700;
     background: var(--logo-bg-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #logo a {
@@ -73,6 +75,16 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Roboto Mono', monospace, sans;
+}
+
+h1 {
+    letter-spacing: 0.1em;
+}
+
+h1 span {
+    animation: dot-loading 1s infinite;
+    overflow: hidden;
 }
 
 #titles h2 {
@@ -87,10 +99,11 @@ a {
 
 #profile-photo {
     display: flex;
-    border: solid black 5px;
+    border: solid black 3px;
     width: 8em;
     height: 8em;
     border-radius: 30%;
+    box-shadow: 0.5em 0.5em;
 }
 
 .social-links {
@@ -182,4 +195,13 @@ a {
         margin: 1.5em;
     }
     
+}
+
+@keyframes dot-loading {
+    from {
+        color:black;
+    }
+    to {
+        color:#e9fb7d;
+  }
 }
