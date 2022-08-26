@@ -22,6 +22,7 @@
     display: flex;
     text-align: center;
     align-items: center;
+    font-family: 'Roboto Mono', monospace, sans;
 }
 
 #logo {
@@ -32,6 +33,7 @@
     font: black;
     font-weight: 700;
     background: var(--logo-bg-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #logo a {
@@ -56,8 +58,17 @@ a {
     margin-right: 50%;
     font-size: 5em;
     font-style: italic;
+    font-family: 'Roboto Mono', monospace, sans;
 }
 
+h1 {
+    letter-spacing: 0.1em;
+}
+
+h1 span {
+    animation: dot-loading 1s infinite;
+    overflow: hidden;
+}
 .about-content {
     display: flex;
     flex-direction: column;
@@ -68,6 +79,7 @@ a {
 .about-content p {
     display: flex;
     align-items: center;
+    font-family: 'Roboto Mono', monospace, sans;
 }
 
 .about1 {
@@ -257,4 +269,13 @@ a {
     .social-links a {
         margin: 0.75em;
     }
+}
+
+@keyframes dot-loading {
+    from {
+        color:black;
+    }
+    to {
+        color:#e9fb7d;
+  }
 }
