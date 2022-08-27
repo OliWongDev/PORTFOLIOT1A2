@@ -60,7 +60,7 @@ a {
     margin-right: 50%;
     font-size: 5em;
     font-style: italic;
-    font-family: 'Roboto Mono', monospace, sans;
+    font-family: 'Roboto Mono', monospace, sans-serif;
     letter-spacing: 0.1em;
 }
 
@@ -77,8 +77,9 @@ a {
 }
 
 .projects h3 {
+    font-size: calc(20px + 0.390625vw);
     text-decoration: underline;
-    font-family: 'Roboto Mono', monospace, sans;
+    font-family: 'Roboto Mono', monospace, sans-serif;
 }
 
 #project-1 {
