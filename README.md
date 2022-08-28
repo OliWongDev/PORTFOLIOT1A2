@@ -2,7 +2,7 @@
 
 ### [NETFLIFY DEPLOYMENT LINK!](https://oliverwongwebdev.netlify.app/)
 
-### [GITHUB REPO!](https://www.example.com)
+### [GITHUB REPO!](https://github.com/JimmyNeutronDance/PORTFOLIOT1A2)
 
 ### [PRESENTATION LINK](https://vimeo.com/743887636/c9a3dd1c15) 
 
