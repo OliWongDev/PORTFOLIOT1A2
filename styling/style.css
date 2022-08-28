@@ -100,7 +100,7 @@ h1 span {
 #profile-photo {
     display: flex;
     border: solid black 3px;
-    width: 8em;
+    width: 6.5em;
     height: 8em;
     border-radius: 30%;
     box-shadow: 0.5em 0.5em;
