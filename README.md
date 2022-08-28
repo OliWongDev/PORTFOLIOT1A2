@@ -74,32 +74,72 @@ The following wireframes were made post design of the portfolio. These are refle
 
 #### Mobile
 
+Mobile Home
 ![Wireframes Mobile Home](/Post-Wireframes/HOME.jpg)
+
+Mobile About
 ![Wireframes Mobile About](/Post-Wireframes/ABOUT.png)
+
+Mobile Blog
 ![Wireframes Mobile Blog](/Post-Wireframes/BLOG.png)
+
+Mobile Blog Entry
 ![Wireframes Mobile Blog Entry](/Post-Wireframes/BLOG%20EXAMPLE.png)
+
+Mobile Projects
 ![Wireframes Mobile Projects](/Post-Wireframes/PROJECTS.png)
 
 #### Desktop
 
+Desktop Home
 ![Wireframes Desktop Home](/Post-Wireframes-Desktop/HOME.png)
+
+Desktop About
 ![Wireframes Desktop About](/Post-Wireframes-Desktop/ABOUT.png)
+
+Desktop Blog
 ![Wireframes Desktop Blog](/Post-Wireframes-Desktop/BLOG.png)
+
+Desktop Blog Entry
 ![Wireframes Desktop Blog Entry](/Post-Wireframes-Desktop/BLOG%20EXAMPLE.png)
+
+Desktop Projects
 ![Wireframes Desktop Projects](/Post-Wireframes-Desktop/PROJECTS.png)
 
 ### SCREENSHOTS
 
+The following are screenshots of the actual website at a mobile and desktop view.
+
+Mobile Home 
 ![Mobile Home](/Mobile-Screenshots/Mobile%20Home%20Screenshot.png)
+
+Mobile About 
 ![Mobile About](/Mobile-Screenshots/About%20Mobile.png)
+
+Mobile Blog
 ![Mobile Blog](/Mobile-Screenshots/Blog%20Mobile.png)
+
+Mobile Blog Entry
 ![Mobile Blog Entry](/Mobile-Screenshots/Blog%20Entry%20Mobile.png)
+
+Mobile Projects
 ![Mobile Projects](/Mobile-Screenshots/Projects%20Mobile.png)
 
+
+
+Desktop Home
 ![Desktop Home](/Desktop-Screenshots/Desktop%20Index%20Screenshot.png)
+
+Desktop About
 ![Desktop About](/Desktop-Screenshots/About%20Desktop.png)
+
+Desktop Blog
 ![Desktop Blog](/Desktop-Screenshots/Blog%20Desktop.png)
+
+Desktop Blog Entry
 ![Desktop Blog Entry](/Desktop-Screenshots/Blog%20Entry%20Desktop.png)
+
+Desktop Projects
 ![Desktop Projects](/Desktop-Screenshots/Projects%20desk.png)
 
 ### TARGET AUDIENCE
