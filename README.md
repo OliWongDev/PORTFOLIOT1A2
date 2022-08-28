@@ -4,7 +4,7 @@
 
 ### [GITHUB REPO!](https://www.example.com)
 
-### [PRESENTATION LINK]() 
+### [PRESENTATION LINK](https://vimeo.com/743887636/c9a3dd1c15) 
 
 ## Description
 
@@ -163,9 +163,9 @@ The author would like to briefly express their thoughts in this section.
 
 > Overall this project was a very enjoyable ordeal that allowed me to increase my developer confidence. I was proud of the fact that I was able to implement ideas that I thought of in my head from the knowledge learnt in just two weeks at Coder Academy. I do have to highlight some areas of improvement however:
 
-- Cleaner code: the code was often messy and convoluted.
-- Relative sizing: This was easily my biggest weakness in the entire project. I ended up committing what I could in order to meet the deadline however I think having my time again I would have taken more time to make sure that my elements were dynamically responsive.
-- Time Management: I took far too long on elements that excited and/or interested me and as a result the assignment is lacking in critical elements.
+>- Cleaner code: the code was often messy and convoluted.
+>- Relative sizing: This was easily my biggest weakness in the entire project. I ended up committing what I could in order to meet the deadline however I think having my time again I would have taken more time to make sure that my elements were dynamically responsive.
+>- Time Management: I took far too long on elements that excited and/or interested me and as a result the assignment is lacking in critical elements. I'm disappointed but understand this to be part of the learning process.
 
 ### THANKS FOR READING :)
 
